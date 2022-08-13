@@ -17,7 +17,7 @@ function showDate(){
 }
 
 showDate();
-$(window).load(function(){
+window.onload(function(){
     showClock();
     setInterval(showClock,1000);
 });
